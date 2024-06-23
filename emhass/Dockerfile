@@ -84,7 +84,7 @@ ENTRYPOINT python3 -m emhass.web_server --addon True --url http://supervisor/cor
 #-----------
 #EMHASS-Add-on testing with git
 FROM addon as addon-git
-ARG build_repo=https://github.com/Poupaerta/emhass.git
+ARG build_repo=https://github.com/davidusb-geek/emhass.git
 ARG build_branch=master
 WORKDIR /tmp/
 #Repo
